@@ -16,7 +16,6 @@ const mapDispatchToProps = dispatch => {
   return {
     setData: (inputValue) => dispatch(todoListAction.setData(inputValue)),
     deleteData: (index) => dispatch(todoListAction.deleteData(index)),
-    getData: () => dispatch(todoListAction.getData())
   };
 };
 
@@ -75,6 +74,7 @@ class Dashboard extends Component {
         </div>
       );
     });
+    // return null;
   }
 
   render() {

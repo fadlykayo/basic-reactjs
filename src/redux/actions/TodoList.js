@@ -1,10 +1,4 @@
 export default {
-  getData: () => {
-    return {
-      type: 'GET_DATA'
-    }
-  },
-
   setData: (inputValue) => {
     return {
       type: 'SET_DATA',
